@@ -15,6 +15,8 @@
 		76CFA55F1B453E8F00747AD1 /* SNICSN__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 76CFA55C1B453E8F00747AD1 /* SNICSN__.TTF */; };
 		76CFA5641B45407E00747AD1 /* CandyBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CFA5621B45407E00747AD1 /* CandyBarView.h */; };
 		76CFA5651B45407E00747AD1 /* CandyBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CFA5631B45407E00747AD1 /* CandyBarView.m */; };
+		76CFA56A1B45688D00747AD1 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76CFA5691B45688D00747AD1 /* Media.xcassets */; };
+		76CFA56C1B4568F300747AD1 /* Snickers_logo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 76CFA56B1B4568F300747AD1 /* Snickers_logo.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,8 @@
 		76CFA55C1B453E8F00747AD1 /* SNICSN__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = SNICSN__.TTF; path = FontFiles/SNICSN__.TTF; sourceTree = "<group>"; };
 		76CFA5621B45407E00747AD1 /* CandyBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandyBarView.h; sourceTree = "<group>"; };
 		76CFA5631B45407E00747AD1 /* CandyBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandyBarView.m; sourceTree = "<group>"; };
+		76CFA5691B45688D00747AD1 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		76CFA56B1B4568F300747AD1 /* Snickers_logo.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snickers_logo.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		76CFA53D1B453CD500747AD1 /* CandyBar */ = {
 			isa = PBXGroup;
 			children = (
+				76CFA5661B4558D700747AD1 /* gfx */,
 				76CFA5591B453E8400747AD1 /* FontFiles */,
 				76CFA5401B453CD500747AD1 /* CandyBar.h */,
 				76CFA53E1B453CD500747AD1 /* Supporting Files */,
@@ -123,6 +128,15 @@
 				76CFA55C1B453E8F00747AD1 /* SNICSN__.TTF */,
 			);
 			name = FontFiles;
+			sourceTree = "<group>";
+		};
+		76CFA5661B4558D700747AD1 /* gfx */ = {
+			isa = PBXGroup;
+			children = (
+				76CFA56B1B4568F300747AD1 /* Snickers_logo.svg */,
+				76CFA5691B45688D00747AD1 /* Media.xcassets */,
+			);
+			name = gfx;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,7 +232,9 @@
 			files = (
 				76CFA55E1B453E8F00747AD1 /* SNICN___.TTF in Resources */,
 				76CFA55D1B453E8F00747AD1 /* Read this.txt in Resources */,
+				76CFA56A1B45688D00747AD1 /* Media.xcassets in Resources */,
 				76CFA55F1B453E8F00747AD1 /* SNICSN__.TTF in Resources */,
+				76CFA56C1B4568F300747AD1 /* Snickers_logo.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +442,7 @@
 				76CFA5531B453CD500747AD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76CFA5541B453CD500747AD1 /* Build configuration list for PBXNativeTarget "CandyBarTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +451,7 @@
 				76CFA5561B453CD500747AD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
