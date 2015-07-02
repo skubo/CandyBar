@@ -1,2 +1,2 @@
-# CandyBar.js
+# CandyBar
 Progress is for candy!
