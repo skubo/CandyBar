@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		761F8BD91B4AC1C60011F391 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761F8BD81B4AC1C60011F391 /* CoreText.framework */; };
 		76CFA5411B453CD500747AD1 /* CandyBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CFA5401B453CD500747AD1 /* CandyBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76CFA5471B453CD500747AD1 /* CandyBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76CFA53B1B453CD500747AD1 /* CandyBar.framework */; };
 		76CFA54E1B453CD500747AD1 /* CandyBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CFA54D1B453CD500747AD1 /* CandyBarTests.m */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		761F8BD81B4AC1C60011F391 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		76CFA53B1B453CD500747AD1 /* CandyBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CandyBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76CFA53F1B453CD500747AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76CFA5401B453CD500747AD1 /* CandyBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CandyBar.h; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				761F8BD91B4AC1C60011F391 /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +70,7 @@
 		76CFA5311B453CD500747AD1 = {
 			isa = PBXGroup;
 			children = (
+				761F8BD81B4AC1C60011F391 /* CoreText.framework */,
 				76CFA53D1B453CD500747AD1 /* CandyBar */,
 				76CFA54A1B453CD500747AD1 /* CandyBarTests */,
 				76CFA53C1B453CD500747AD1 /* Products */,
