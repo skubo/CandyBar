@@ -8,12 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+IB_DESIGNABLE
 @interface CandyBarView : UIView
 
 -(id)initWithFrame:(CGRect)frame andTitle:(NSString*) title;
 
 -(void)setValue:(float)value lowValue:(float) low highValue:(float) high;
 
-@property (nonatomic, strong) UILabel* barTitle;
+@property IB_DESIGNABLE (nonatomic, strong) UILabel* barTitle;
 
 @end
