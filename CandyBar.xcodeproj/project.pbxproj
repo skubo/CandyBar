@@ -7,44 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		761F8BD91B4AC1C60011F391 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761F8BD81B4AC1C60011F391 /* CoreText.framework */; };
+		763F328A1C7DB93A00357E1C /* SKUBezierPath+SVG.h in Headers */ = {isa = PBXBuildFile; fileRef = 763F32881C7DB93A00357E1C /* SKUBezierPath+SVG.h */; };
+		763F328B1C7DB93A00357E1C /* SKUBezierPath+SVG.m in Sources */ = {isa = PBXBuildFile; fileRef = 763F32891C7DB93A00357E1C /* SKUBezierPath+SVG.m */; };
+		763F328E1C7DB9BD00357E1C /* CGPathWriter.c in Sources */ = {isa = PBXBuildFile; fileRef = 763F328C1C7DB9BD00357E1C /* CGPathWriter.c */; };
+		763F328F1C7DB9BD00357E1C /* CGPathWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 763F328D1C7DB9BD00357E1C /* CGPathWriter.h */; };
+		763F32A61C7DD1EF00357E1C /* UIColor+HexColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 763F32A41C7DD1EF00357E1C /* UIColor+HexColors.h */; };
+		763F32A71C7DD1EF00357E1C /* UIColor+HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 763F32A51C7DD1EF00357E1C /* UIColor+HexColors.m */; };
 		76CFA5411B453CD500747AD1 /* CandyBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CFA5401B453CD500747AD1 /* CandyBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76CFA5471B453CD500747AD1 /* CandyBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76CFA53B1B453CD500747AD1 /* CandyBar.framework */; };
-		76CFA54E1B453CD500747AD1 /* CandyBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CFA54D1B453CD500747AD1 /* CandyBarTests.m */; };
 		76CFA55D1B453E8F00747AD1 /* Read this.txt in Resources */ = {isa = PBXBuildFile; fileRef = 76CFA55A1B453E8F00747AD1 /* Read this.txt */; };
 		76CFA55E1B453E8F00747AD1 /* SNICN___.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 76CFA55B1B453E8F00747AD1 /* SNICN___.TTF */; };
 		76CFA55F1B453E8F00747AD1 /* SNICSN__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 76CFA55C1B453E8F00747AD1 /* SNICSN__.TTF */; };
-		76CFA5641B45407E00747AD1 /* CandyBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CFA5621B45407E00747AD1 /* CandyBarView.h */; };
+		76CFA5641B45407E00747AD1 /* CandyBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CFA5621B45407E00747AD1 /* CandyBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76CFA5651B45407E00747AD1 /* CandyBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CFA5631B45407E00747AD1 /* CandyBarView.m */; };
 		76CFA56A1B45688D00747AD1 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76CFA5691B45688D00747AD1 /* Media.xcassets */; };
-		76CFA56C1B4568F300747AD1 /* Snickers_logo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 76CFA56B1B4568F300747AD1 /* Snickers_logo.svg */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		76CFA5481B453CD500747AD1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 76CFA5321B453CD500747AD1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 76CFA53A1B453CD500747AD1;
-			remoteInfo = CandyBar;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		761F8BD81B4AC1C60011F391 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		763F32881C7DB93A00357E1C /* SKUBezierPath+SVG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKUBezierPath+SVG.h"; sourceTree = "<group>"; };
+		763F32891C7DB93A00357E1C /* SKUBezierPath+SVG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKUBezierPath+SVG.m"; sourceTree = "<group>"; };
+		763F328C1C7DB9BD00357E1C /* CGPathWriter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CGPathWriter.c; sourceTree = "<group>"; };
+		763F328D1C7DB9BD00357E1C /* CGPathWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPathWriter.h; sourceTree = "<group>"; };
+		763F32A41C7DD1EF00357E1C /* UIColor+HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColors.h"; sourceTree = "<group>"; };
+		763F32A51C7DD1EF00357E1C /* UIColor+HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColors.m"; sourceTree = "<group>"; };
 		76CFA53B1B453CD500747AD1 /* CandyBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CandyBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76CFA53F1B453CD500747AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76CFA5401B453CD500747AD1 /* CandyBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CandyBar.h; sourceTree = "<group>"; };
-		76CFA5461B453CD500747AD1 /* CandyBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandyBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		76CFA54C1B453CD500747AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76CFA54D1B453CD500747AD1 /* CandyBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CandyBarTests.m; sourceTree = "<group>"; };
 		76CFA55A1B453E8F00747AD1 /* Read this.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Read this.txt"; path = "FontFiles/Read this.txt"; sourceTree = "<group>"; };
 		76CFA55B1B453E8F00747AD1 /* SNICN___.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SNICN___.TTF"; path = "FontFiles/SNICN___.TTF"; sourceTree = "<group>"; };
 		76CFA55C1B453E8F00747AD1 /* SNICSN__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = SNICSN__.TTF; path = FontFiles/SNICSN__.TTF; sourceTree = "<group>"; };
 		76CFA5621B45407E00747AD1 /* CandyBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandyBarView.h; sourceTree = "<group>"; };
 		76CFA5631B45407E00747AD1 /* CandyBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandyBarView.m; sourceTree = "<group>"; };
 		76CFA5691B45688D00747AD1 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		76CFA56B1B4568F300747AD1 /* Snickers_logo.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snickers_logo.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,15 +45,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				761F8BD91B4AC1C60011F391 /* CoreText.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76CFA5431B453CD500747AD1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				76CFA5471B453CD500747AD1 /* CandyBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,9 +54,7 @@
 		76CFA5311B453CD500747AD1 = {
 			isa = PBXGroup;
 			children = (
-				761F8BD81B4AC1C60011F391 /* CoreText.framework */,
 				76CFA53D1B453CD500747AD1 /* CandyBar */,
-				76CFA54A1B453CD500747AD1 /* CandyBarTests */,
 				76CFA53C1B453CD500747AD1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				76CFA53B1B453CD500747AD1 /* CandyBar.framework */,
-				76CFA5461B453CD500747AD1 /* CandyBarTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +76,12 @@
 				76CFA53E1B453CD500747AD1 /* Supporting Files */,
 				76CFA5621B45407E00747AD1 /* CandyBarView.h */,
 				76CFA5631B45407E00747AD1 /* CandyBarView.m */,
+				763F328C1C7DB9BD00357E1C /* CGPathWriter.c */,
+				763F328D1C7DB9BD00357E1C /* CGPathWriter.h */,
+				763F32881C7DB93A00357E1C /* SKUBezierPath+SVG.h */,
+				763F32891C7DB93A00357E1C /* SKUBezierPath+SVG.m */,
+				763F32A41C7DD1EF00357E1C /* UIColor+HexColors.h */,
+				763F32A51C7DD1EF00357E1C /* UIColor+HexColors.m */,
 			);
 			path = CandyBar;
 			sourceTree = "<group>";
@@ -103,23 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				76CFA53F1B453CD500747AD1 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		76CFA54A1B453CD500747AD1 /* CandyBarTests */ = {
-			isa = PBXGroup;
-			children = (
-				76CFA54D1B453CD500747AD1 /* CandyBarTests.m */,
-				76CFA54B1B453CD500747AD1 /* Supporting Files */,
-			);
-			path = CandyBarTests;
-			sourceTree = "<group>";
-		};
-		76CFA54B1B453CD500747AD1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				76CFA54C1B453CD500747AD1 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -137,7 +107,6 @@
 		76CFA5661B4558D700747AD1 /* gfx */ = {
 			isa = PBXGroup;
 			children = (
-				76CFA56B1B4568F300747AD1 /* Snickers_logo.svg */,
 				76CFA5691B45688D00747AD1 /* Media.xcassets */,
 			);
 			name = gfx;
@@ -150,7 +119,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				763F328F1C7DB9BD00357E1C /* CGPathWriter.h in Headers */,
+				763F328A1C7DB93A00357E1C /* SKUBezierPath+SVG.h in Headers */,
 				76CFA5411B453CD500747AD1 /* CandyBar.h in Headers */,
+				763F32A61C7DD1EF00357E1C /* UIColor+HexColors.h in Headers */,
 				76CFA5641B45407E00747AD1 /* CandyBarView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,37 +148,16 @@
 			productReference = 76CFA53B1B453CD500747AD1 /* CandyBar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		76CFA5451B453CD500747AD1 /* CandyBarTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 76CFA5541B453CD500747AD1 /* Build configuration list for PBXNativeTarget "CandyBarTests" */;
-			buildPhases = (
-				76CFA5421B453CD500747AD1 /* Sources */,
-				76CFA5431B453CD500747AD1 /* Frameworks */,
-				76CFA5441B453CD500747AD1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				76CFA5491B453CD500747AD1 /* PBXTargetDependency */,
-			);
-			name = CandyBarTests;
-			productName = CandyBarTests;
-			productReference = 76CFA5461B453CD500747AD1 /* CandyBarTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		76CFA5321B453CD500747AD1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ga.rbers.net;
 				TargetAttributes = {
 					76CFA53A1B453CD500747AD1 = {
-						CreatedOnToolsVersion = 6.3.2;
-					};
-					76CFA5451B453CD500747AD1 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
@@ -224,7 +175,6 @@
 			projectRoot = "";
 			targets = (
 				76CFA53A1B453CD500747AD1 /* CandyBar */,
-				76CFA5451B453CD500747AD1 /* CandyBarTests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,14 +188,6 @@
 				76CFA55D1B453E8F00747AD1 /* Read this.txt in Resources */,
 				76CFA56A1B45688D00747AD1 /* Media.xcassets in Resources */,
 				76CFA55F1B453E8F00747AD1 /* SNICSN__.TTF in Resources */,
-				76CFA56C1B4568F300747AD1 /* Snickers_logo.svg in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76CFA5441B453CD500747AD1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,27 +198,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				763F328B1C7DB93A00357E1C /* SKUBezierPath+SVG.m in Sources */,
+				763F32A71C7DD1EF00357E1C /* UIColor+HexColors.m in Sources */,
 				76CFA5651B45407E00747AD1 /* CandyBarView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76CFA5421B453CD500747AD1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				76CFA54E1B453CD500747AD1 /* CandyBarTests.m in Sources */,
+				763F328E1C7DB9BD00357E1C /* CGPathWriter.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		76CFA5491B453CD500747AD1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 76CFA53A1B453CD500747AD1 /* CandyBar */;
-			targetProxy = 76CFA5481B453CD500747AD1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		76CFA54F1B453CD500747AD1 /* Debug */ = {
@@ -301,6 +230,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -377,6 +307,7 @@
 				INFOPLIST_FILE = CandyBar/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.rbers.ga.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -392,38 +323,9 @@
 				INFOPLIST_FILE = CandyBar/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.rbers.ga.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		76CFA5551B453CD500747AD1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CandyBarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		76CFA5561B453CD500747AD1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CandyBarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -444,15 +346,6 @@
 			buildConfigurations = (
 				76CFA5521B453CD500747AD1 /* Debug */,
 				76CFA5531B453CD500747AD1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		76CFA5541B453CD500747AD1 /* Build configuration list for PBXNativeTarget "CandyBarTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				76CFA5551B453CD500747AD1 /* Debug */,
-				76CFA5561B453CD500747AD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -13,8 +13,12 @@ IB_DESIGNABLE
 
 -(id)initWithFrame:(CGRect)frame andTitle:(NSString*) title;
 
--(void)setValue:(float)value lowValue:(float) low highValue:(float) high;
+@property (nonatomic, strong) IBInspectable UILabel* barTitle;
+@property (nonatomic, strong) IBInspectable UIColor* progressColor;
+@property (nonatomic, assign) IBInspectable float current;
+@property (nonatomic, assign) IBInspectable float minimum;
+@property (nonatomic, assign) IBInspectable float maximum;
+@property (nonatomic, assign) IBInspectable BOOL withR;
 
-@property IB_DESIGNABLE (nonatomic, strong) UILabel* barTitle;
 
 @end
